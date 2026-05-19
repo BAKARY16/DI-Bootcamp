@@ -14,6 +14,9 @@ print(multiple)
 
 ######################## Challenge 1 end #########################
 
+
+
+
 # Challenge 2
 UserText = input("Entrer un text : ")
 if UserText:
@@ -26,3 +29,5 @@ else:
     new_text = ""
 
 print(new_text)
+
+########################## Challenge 2 end #########################
