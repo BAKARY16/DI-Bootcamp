@@ -1,3 +1,8 @@
+
+# The following code contains two challenges. 
+# Each exercise is separated by a comment line for clarity.
+
+
 # Challenge 1: Letter Index Dictionary
 #  User Input:
 user_input = input("Please enter a string: ")
