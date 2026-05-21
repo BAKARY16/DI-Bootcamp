@@ -1,3 +1,7 @@
+# This file contains the code for the exercises XP of the day3. 
+# Each exercise is separated by a comment line for clarity.
+
+
 # Exercise 1: Cats
 class Cat:
     def __init__(self, cat_name, cat_age):
@@ -63,6 +67,7 @@ if davids_dog.height > sarahs_dog.height :
 elif davids_dog.height < sarahs_dog.height :
     print("{} is bigger than {}.".format(sarahs_dog.name, davids_dog.name))
 
+
 # -----------------------------------------------------------------
 
 
@@ -86,6 +91,7 @@ stairway.sing_me_a_song()
 # ------------------------------------------------------------------
 
 
+# exercise 4 : The Zoo
 # Step 1: Define the Zoo Class
 # Create a class called Zoo.
 class Zoo:
