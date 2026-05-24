@@ -1,7 +1,7 @@
 # Part II - rock-paper-scissors.py
 
 
-from game import Game
+from day05.mini_projet.game import Game
 
 def get_user_menu_choice():
     print("Menu :")
