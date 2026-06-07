@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Recommandation IA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div>
+                <h1>Dashboard Recommandation IA</h1>
+                <p>Interface dynamique pour visualiser l'analyse, les tendances et les recommandations.</p>
+            </div>
+            <div class="header-meta">
+                <span>Projet : IA générateur de contenu</span>
+                <span>Onglets : Vue d'ensemble • Données • Graphiques • Recommandations • Checklist</span>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <button data-tab="overview" class="active">Vue d'ensemble</button>
+        <button data-tab="data">Données</button>
+        <button data-tab="charts">Graphiques</button>
+        <button data-tab="recommendations">Recommandations</button>
+        <button data-tab="todo">Checklist</button>
+    </nav>
+    <main>
+        <section id="overview" class="tab active">
+            <h2>Vue d'ensemble</h2>
+            <div class="card-grid">
+                <div class="card"><strong>Utilisateurs générés</strong><p id="user-count">...</p></div>
+                <div class="card"><strong>Activités totales</strong><p id="activity-count">...</p></div>
+                <div class="card"><strong>Chi²</strong><p id="chi2-value">...</p></div>
+                <div class="card"><strong>p-value</strong><p id="p-value">...</p></div>
+            </div>
+            <div class="chart-grid">
+                <div class="chart-card">
+                    <h3>Distribution des centres d'intérêt</h3>
+                    <canvas id="interestChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Activité horaire</h3>
+                    <canvas id="hourlyChart"></canvas>
+                </div>
+            </div>
+            <div class="detail-block">
+                <div>
+                    <h3>Top centres d'intérêt</h3>
+                    <ul id="top-interests"></ul>
+                </div>
+                <div>
+                    <h3>Heures de pointe</h3>
+                    <ul id="top-hours"></ul>
+                </div>
+            </div>
+        </section>
+        <section id="data" class="tab">
+            <h2>Données utilisateurs</h2>
+            <div class="table-card">
+                <h3>Exemples de profils</h3>
+                <table>
+                    <thead><tr><th>Nom</th><th>Âge</th><th>Intérêts</th><th>Activités</th></tr></thead>
+                    <tbody id="recent-users"></tbody>
+                </table>
+            </div>
+        </section>
+        <section id="charts" class="tab">
+            <h2>Graphiques détaillés</h2>
+            <div class="chart-grid">
+                <div class="chart-card">
+                    <h3>Répartition des intérêts</h3>
+                    <canvas id="interestChart2"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Activité par catégorie</h3>
+                    <canvas id="categoryChart"></canvas>
+                </div>
+            </div>
+        </section>
+        <section id="recommendations" class="tab">
+            <h2>Recommandations</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Profil exemple</h3>
+                    <p><strong>Nom :</strong> <span id="sample-name"></span></p>
+                    <p><strong>Âge :</strong> <span id="sample-age"></span></p>
+                    <p><strong>Intérêts :</strong> <span id="sample-interests"></span></p>
+                    <p><strong>Activité :</strong> <span id="sample-activity"></span></p>
+                </div>
+                <div class="card">
+                    <h3>Suggestions personnalisées</h3>
+                    <ul id="suggestions-list"></ul>
+                </div>
+                <div class="card">
+                    <h3>Profil similaire</h3>
+                    <ul id="similar-suggestions-list"></ul>
+                </div>
+            </div>
+        </section>
+        <section id="todo" class="tab">
+            <h2>Checklist de l'exercice</h2>
+            <div class="table-card">
+                <ul id="todo-list"></ul>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

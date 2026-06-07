@@ -1,0 +1,312 @@
+{
+  "summary": {
+    "users": 120,
+    "total_activities": 525,
+    "interest_counts": {
+      "fitness": 50,
+      "technology": 44,
+      "music": 42,
+      "books": 35,
+      "cooking": 43,
+      "travel": 31
+    },
+    "chi2": 5.653061224489795,
+    "p_value": 0.3414538527510849
+  },
+  "sample_user": {
+    "name": "User_1",
+    "age": 34,
+    "interests": [
+      "cooking",
+      "music",
+      "fitness"
+    ],
+    "activity_log": [
+      "bought cooking at 23",
+      "watched cooking at 20",
+      "watched fitness at 3"
+    ]
+  },
+  "suggestions": [
+    "Quick healthy recipes",
+    "Baking 101 series",
+    "Vegetarian meal plan",
+    "Daily 20-min HIIT",
+    "Beginner running plan"
+  ],
+  "similar_suggestions": [
+    "Daily 20-min HIIT",
+    "Beginner running plan",
+    "Yoga for flexibility"
+  ],
+  "interest_labels": [
+    "fitness",
+    "technology",
+    "music",
+    "books",
+    "cooking",
+    "travel"
+  ],
+  "interest_values": [
+    50,
+    44,
+    42,
+    35,
+    43,
+    31
+  ],
+  "hours": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23"
+  ],
+  "hourly_activity": [
+    26,
+    21,
+    26,
+    25,
+    22,
+    18,
+    14,
+    19,
+    22,
+    16,
+    18,
+    17,
+    22,
+    21,
+    26,
+    17,
+    19,
+    22,
+    28,
+    21,
+    20,
+    33,
+    28,
+    24
+  ],
+  "category_labels": [
+    "fitness",
+    "technology",
+    "music",
+    "books",
+    "cooking",
+    "travel"
+  ],
+  "category_values": [
+    102,
+    93,
+    81,
+    88,
+    84,
+    77
+  ],
+  "top_interests": [
+    [
+      "fitness",
+      50
+    ],
+    [
+      "technology",
+      44
+    ],
+    [
+      "cooking",
+      43
+    ],
+    [
+      "music",
+      42
+    ],
+    [
+      "books",
+      35
+    ],
+    [
+      "travel",
+      31
+    ]
+  ],
+  "top_hours": [
+    [
+      21,
+      33
+    ],
+    [
+      18,
+      28
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      0,
+      26
+    ],
+    [
+      2,
+      26
+    ]
+  ],
+  "probabilistic_analysis": {
+    "fitness": {
+      "probability": 0.4166666666666667,
+      "count": 50
+    },
+    "technology": {
+      "probability": 0.36666666666666664,
+      "count": 44
+    },
+    "music": {
+      "probability": 0.35,
+      "count": 42
+    },
+    "books": {
+      "probability": 0.2916666666666667,
+      "count": 35
+    },
+    "cooking": {
+      "probability": 0.35833333333333334,
+      "count": 43
+    },
+    "travel": {
+      "probability": 0.25833333333333336,
+      "count": 31
+    }
+  },
+  "todo": [
+    {
+      "task": "Générer un jeu de données synthétique",
+      "done": true
+    },
+    {
+      "task": "Prétraiter les données avec Pandas",
+      "done": true
+    },
+    {
+      "task": "Analyser les intérêts et l'activité",
+      "done": true
+    },
+    {
+      "task": "Utiliser SciPy pour un test statistique",
+      "done": true
+    },
+    {
+      "task": "Modéliser les distributions probabilistes",
+      "done": true
+    },
+    {
+      "task": "Afficher des graphiques Matplotlib/Seaborn",
+      "done": true
+    },
+    {
+      "task": "Créer un système de recommandation OOP",
+      "done": true
+    },
+    {
+      "task": "Analyser la similarité entre utilisateurs",
+      "done": true
+    }
+  ],
+  "recent_users": [
+    {
+      "name": "User_1",
+      "age": 34,
+      "interests": [
+        "cooking",
+        "music",
+        "fitness"
+      ],
+      "activity_count": 3
+    },
+    {
+      "name": "User_2",
+      "age": 28,
+      "interests": [
+        "fitness",
+        "travel",
+        "cooking"
+      ],
+      "activity_count": 6
+    },
+    {
+      "name": "User_3",
+      "age": 30,
+      "interests": [
+        "fitness",
+        "technology",
+        "books"
+      ],
+      "activity_count": 7
+    },
+    {
+      "name": "User_4",
+      "age": 25,
+      "interests": [
+        "fitness",
+        "travel",
+        "cooking"
+      ],
+      "activity_count": 2
+    },
+    {
+      "name": "User_5",
+      "age": 22,
+      "interests": [
+        "books",
+        "cooking",
+        "fitness"
+      ],
+      "activity_count": 1
+    },
+    {
+      "name": "User_6",
+      "age": 22,
+      "interests": [
+        "books",
+        "technology"
+      ],
+      "activity_count": 6
+    },
+    {
+      "name": "User_7",
+      "age": 37,
+      "interests": [
+        "fitness",
+        "music"
+      ],
+      "activity_count": 8
+    },
+    {
+      "name": "User_8",
+      "age": 31,
+      "interests": [
+        "fitness"
+      ],
+      "activity_count": 7
+    }
+  ]
+}
